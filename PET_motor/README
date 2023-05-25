@@ -1,0 +1,21 @@
+PET  (8mmFWHM)
+  Analyze format images; left is left (neurological convention).
+
+     1 subject, 12 scan :
+     ./PET_motor/s8np1160em[01-12]R.{img,hdr}
+     Gzipped tar file:
+     ftp://ftp.fil.ion.ucl.ac.uk/spm/data/PET_motor.tar.gz (3.5Mb)
+
+Description:
+
+'s PET data from a multisubject PET-fMRI study.
+(see ref below).  Subject used left hand to perform finger opposition task:
+touch thumb to index finger, to middle finger, to ring finger, to pinky,
+the repeat.  Subject performed this this at a rate of 2 Hz, as guided by a visual cue.  For baseline, there was no finger movement, but the visual cue was still present.  Odd scans are activation, even scans are baseline.  Thanks to
+Paul Kinahan &amp; Doug Noll for sharing this data. 
+
+Reference:
+
+Noll D, Kinahan et al.;(1996)  "Comparison of activation response using functional PET and MRI" NeuroImage 3(3):S34.
+
+This is a single subject
